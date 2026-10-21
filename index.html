@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>D'Cassan Studio · Tratamientos faciales y cursos de belleza</title>
+<meta name="description" content="Limpiezas faciales, Hydrafacial, peelings y Dermapen, y cursos de extensiones de pestañas, lash lifting y estética facial en Santiago Centro, a pasos del Metro Santa Ana.">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="D'Cassan Studio">
+<meta property="og:description" content="Tratamientos faciales y formación profesional en belleza en Santiago Centro.">
+<meta property="og:image" content="img/foto-c-formacion.webp">
+<link rel="icon" href="img/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css?v=4">
+</head>
+<body>
+
+<header class="top">
+  <a href="#inicio" class="top__logo"><img src="img/logo.webp" alt="D'Cassan Studio"></a>
+  <nav class="top__nav">
+    <a href="#servicios">Servicios</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#alumnas">Alumnas</a>
+    <a href="#ubicacion">Ubicación</a>
+  </nav>
+  <a class="btn btn--wa btn--sm js-wa-libre" href="#">WhatsApp</a>
+</header>
+
+<main id="inicio">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__txt">
+      <p class="script">Tu piel lo merece</p>
+      <h1>Belleza y formación profesional, <em>en manos expertas</em></h1>
+      <p class="hero__sub">Servicios faciales y de pestañas con tecnología y cosmética coreana, y cursos 100% prácticos para que aprendas y emprendas en belleza. Santiago Centro, a pasos del Metro Santa Ana.</p>
+      <div class="hero__choices">
+        <a href="#servicios" class="choice">
+          <span class="choice__k">Para tu piel</span>
+          <strong>Descubre qué cuidados necesita tu piel y reserva</strong>
+          <span class="choice__p">desde $24.990</span>
+        </a>
+        <a href="#cursos" class="choice choice--dark">
+          <span class="choice__k">D'Cassan Academy</span>
+          <strong>Quiero aprender para emprender</strong>
+          <span class="choice__p">cursos desde $60.000</span>
+        </a>
+      </div>
+    </div>
+    <div class="mosaic">
+      <img class="mosaic__a" src="img/hero-1.webp" alt="Extensiones de pestañas realizadas en D'Cassan Studio" fetchpriority="high">
+      <img src="img/foto-hydrafacial.webp" alt="Limpieza facial Hydrafacial">
+      <img src="img/foto-lifting.webp" alt="Lifting de pestañas">
+    </div>
+  </section>
+
+  <ul class="trust">
+    <li><b>Atención</b> personalizada</li>
+    <li><b>Máx. 2</b> alumnas por curso</li>
+    <li><b>Metro</b> Santa Ana</li>
+  </ul>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="sec">
+    <div class="sec__head">
+      <p class="eyebrow">Servicios faciales y de pestañas</p>
+      <h2>¿Qué cuidados necesitas?</h2>
+      <p class="sec__lead">Toca lo que buscas y te recomendamos el servicio ideal.</p>
+    </div>
+    <div class="test" id="test"></div>
+    <div class="test__res" id="testRes" hidden></div>
+
+    <h3 class="sub">Limpiezas faciales <span>compara y elige</span></h3>
+    <div class="compare" id="limpiezas"></div>
+
+    <h3 class="sub">Servicios <span>para metas específicas</span></h3>
+    <div class="cards" id="tratamientos"></div>
+    <p class="fine">Los servicios faciales se realizan previa evaluación de tu piel. Los resultados varían según cada persona.</p>
+
+    <h3 class="sub">Pestañas <span>extensiones</span></h3>
+    <div class="compare" id="pestanas"></div>
+    <h3 class="sub">Pestañas <span>con tus pestañas naturales</span></h3>
+    <div class="cards cards--one" id="liftingBox"></div>
+  </section>
+
+  <!-- CURSOS -->
+  <section id="cursos" class="sec sec--alt">
+    <div class="sec__head">
+      <p class="eyebrow">D'Cassan Academy</p>
+      <h2>Aprende para emprender</h2>
+      <p class="sec__lead">Cursos presenciales, desde cero y con práctica real. Grupos reducidos para que aprendas con confianza. <b>Reserva tu cupo con $30.000</b>, que se descuentan del total.</p>
+    </div>
+
+    <div class="why">
+      <div><b>Práctica real</b><span>No solo maniquí: trabajas en modelos reales con supervisión.</span></div>
+      <div><b>Grupos mínimos</b><span>Atención cercana y corrección individual.</span></div>
+      <div><b>Aprendes el porqué</b><span>Entiendes cada técnica para adaptarla a cada clienta.</span></div>
+      <div><b>No te dejamos sola</b><span>Asesoría por WhatsApp después del curso.</span></div>
+    </div>
+
+    <h3 class="sub">Pestañas</h3>
+    <div class="cards" id="cursosPestanas"></div>
+
+    <div class="vs" id="vsPestanas"></div>
+
+    <h3 class="sub">Estética facial</h3>
+    <div class="cards" id="cursosFacial"></div>
+  </section>
+
+  <!-- ALUMNAS -->
+  <section id="alumnas" class="sec">
+    <div class="sec__head">
+      <p class="script">Alumnas reales, resultados reales</p>
+      <h2>Ellas ya dieron el primer paso</h2>
+    </div>
+    <div class="gallery" id="gallery"></div>
+    <blockquote class="quote">
+      “Nos gustó mucho el curso, aprendimos bastante. Le agradecemos mucho por todo lo aprendido.”
+      <cite>— Alumnas del curso de pestañas, por WhatsApp</cite>
+    </blockquote>
+  </section>
+
+  <!-- POLÍTICAS + UBICACIÓN -->
+  <section id="ubicacion" class="sec sec--alt">
+    <div class="loc">
+      <div class="loc__info">
+        <p class="eyebrow">Te esperamos</p>
+        <h2>D'Cassan Studio</h2>
+        <p class="loc__dir js-dir"></p>
+        <p class="muted js-ref"></p>
+        <div class="loc__btns">
+          <a class="btn btn--gold js-mapa" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="btn btn--ghost js-ig" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div class="loc__pol">
+        <h3>Políticas de reserva</h3>
+        <details>
+          <summary>Reserva y pago</summary>
+          <p>Los cupos de cursos se confirman con una reserva de $30.000, que se descuenta del valor total. El saldo se paga antes de comenzar la capacitación.</p>
+        </details>
+        <details>
+          <summary>Cambios de fecha</summary>
+          <p>Debes avisar con al menos 48 horas de anticipación y el cambio queda sujeto a disponibilidad. En los cursos de extensiones de pestañas, el primer cambio es sin costo y desde el segundo se cobran $10.000. En los demás cursos, cada cambio tiene un costo administrativo de $10.000.</p>
+        </details>
+        <details>
+          <summary>Inasistencia sin aviso (no show)</summary>
+          <p>Si no asistes sin avisar, la jornada se considera utilizada y el monto pagado no se reembolsa, en la medida permitida por la ley.</p>
+        </details>
+        <details>
+          <summary>Modelos para la práctica</summary>
+          <p>Puedes traer a tu propia modelo. Si no tienes, avísanos con anticipación y te ayudamos a coordinar una.</p>
+        </details>
+        <details>
+          <summary>Kit de inicio</summary>
+          <p>Los cursos incluyen todos los insumos para practicar. El kit para trabajar por tu cuenta no está incluido; te orientamos para comprarlo.</p>
+        </details>
+        <p class="fine">Las solicitudes de cancelación y situaciones excepcionales se evalúan según las condiciones contratadas y los derechos que establece la ley.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <img src="img/logo.webp" alt="" width="120">
+  <p>D'Cassan Studio · Santiago Centro, Chile</p>
+</footer>
+
+<!-- Barra fija -->
+<div class="bar" id="bar">
+  <div class="bar__txt"><span id="barNombre">¿Tienes dudas?</span><b id="barPrecio">Escríbenos</b></div>
+  <a class="btn btn--wa js-wa-libre" href="#" id="barBtn">WhatsApp</a>
+</div>
+
+<!-- Ventana de detalle / reserva -->
+<div class="modal" id="modal" hidden>
+  <div class="modal__bg" data-close></div>
+  <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="mTitulo">
+    <button class="modal__x" data-close aria-label="Cerrar">×</button>
+    <div id="mBody"></div>
+  </div>
+</div>
+
+<!-- Visor de afiches -->
+<div class="lightbox" id="lightbox" hidden><img alt=""><button aria-label="Cerrar">×</button></div>
+
+<script src="config.js?v=4"></script>
+<script src="datos.js?v=4"></script>
+<script src="app.js?v=4"></script>
+</body>
+</html>
