@@ -10,7 +10,7 @@ window.DCASSAN_CONFIG = {
   MAPA: "https://maps.google.com/?q=Pasaje+Sotero+del+Rio+508,+Santiago",
 
   // Google Apps Script (planilla + aviso a Telegram + borrador Gmail). Vacío = no se envía nada.
-  ENDPOINT: "",
+  ENDPOINT: "https://script.google.com/macros/s/AKfycbxedrWpBoGt71yXVah5WVRIEXMABug3795c36Wq3fQg80iaJpOMegUtvi3eqdX7Zb00/exec",
 
   // Píxel de Meta de la cuenta "Dcassan lash". Vacío = sin píxel.
   PIXEL_ID: ""
