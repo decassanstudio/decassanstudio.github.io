@@ -13,5 +13,5 @@ window.DCASSAN_CONFIG = {
   ENDPOINT: "https://script.google.com/macros/s/AKfycbxedrWpBoGt71yXVah5WVRIEXMABug3795c36Wq3fQg80iaJpOMegUtvi3eqdX7Zb00/exec",
 
   // Píxel de Meta de la cuenta "Dcassan lash". Vacío = sin píxel.
-  PIXEL_ID: ""
+  PIXEL_ID: "5662005977358302"
 };
